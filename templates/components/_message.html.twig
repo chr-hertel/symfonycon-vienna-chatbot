@@ -1,4 +1,4 @@
-{% if message.role == 'assistant' %}
+{% if message.role.value == 'assistant' %}
     {{ _self.bot(message.content) }}
 {% else %}
     {{ _self.user(message.content) }}
@@ -25,7 +25,9 @@
 {% macro user(content) %}
     <div class="d-flex align-items-baseline text-end justify-content-end mb-4">
         <div class="pe-2">
-            <div class="user-message d-inline-block p-2 px-3 m-1 border border-light-subtle shadow-sm">{{ content|nl2br }}</div>
+            {% for item in content %}
+                <div class="user-message d-inline-block p-2 px-3 m-1 border border-light-subtle shadow-sm">{{ item.text }}</div>
+            {% endfor %}
         </div>
         <div class="user avatar rounded-3 shadow-sm">
             {{ ux_icon('solar:user-bold', { width: '45px', height: '45px' }) }}

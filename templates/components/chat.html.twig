@@ -17,7 +17,7 @@
             </div>
         {% endfor %}
         <div id="loading-message" class="d-none">
-            {{ message.user('') }}
+            {{ message.user([{text:''}]) }}
             {{ message.bot('Your Symfony bot is looking for an answer ...', true) }}
         </div>
     </div>

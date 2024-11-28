@@ -9,6 +9,8 @@ use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Style\SymfonyStyle;
+use Symfony\Component\HttpClient\Chunk\ServerSentEvent;
+use Symfony\Component\HttpClient\EventSourceHttpClient;
 use Symfony\Contracts\HttpClient\HttpClientInterface;
 
 #[AsCommand('app:chat', description: 'Chat with GPT')]
@@ -31,23 +33,38 @@ final class ChatCommand extends Command
         ];
 
         $userMessage = $io->ask('You');
+        $client = new EventSourceHttpClient($this->httpClient);
 
         do {
             $messages[] = ['role' => 'user', 'content' => $userMessage];
-            $response = $this->httpClient->request('POST', 'https://api.openai.com/v1/chat/completions', [
+            $response = $client->request('POST', 'https://api.openai.com/v1/chat/completions', [
                 'auth_bearer' => $this->openAiApiKey,
                 'json' => [
                     'model' => 'gpt-4o',
                     'messages' => $messages,
+                    'stream' => true,
                 ],
             ]);
-            $data = $response->toArray();
-
-            $assistant = $data['choices'][0]['message']['content'];
-            $messages[] = ['role' => 'assistant', 'content' => $assistant];
-
             $io->writeln(' <comment>Bot</comment>:');
-            $io->writeln(' > '.$assistant);
+            $io->write(' > ');
+
+            $assistant = '';
+            foreach ($client->stream($response) as $chunk) {
+                if (!$chunk instanceof ServerSentEvent || '[DONE]' === $chunk->getData()) {
+                    continue;
+                }
+
+                $data = $chunk->getArrayData();
+
+                if (!isset($data['choices'][0]['delta']['content'])) {
+                    continue;
+                }
+
+                $io->write($partial = $data['choices'][0]['delta']['content']);
+                $assistant .= $partial;
+            }
+
+            $messages[] = ['role' => 'assistant', 'content' => $assistant];
         } while ($userMessage = $io->ask('You'));
 
         return 0;

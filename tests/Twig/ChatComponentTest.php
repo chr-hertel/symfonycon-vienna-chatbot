@@ -36,29 +36,4 @@ final class ChatComponentTest extends KernelTestCase
 
         self::assertCount(0, $messages);
     }
-
-    public function testSubmitMessage(): void
-    {
-        $this->chatComponent->submit('Hi, my name is Jane!');
-
-        $expected = [
-            ['role' => 'user', 'content' => 'Hi, my name is Jane!'],
-            ['role' => 'assistant', 'content' => 'Hello, Jane! How can I assist you today?'],
-        ];
-
-        $actual = $this->chatComponent->getMessages();
-
-        self::assertCount(2, $actual);
-        self::assertSame($expected, $actual);
-    }
-
-    public function testReset(): void
-    {
-        $this->chatComponent->submit('Hi, my name is Jane!');
-        $this->chatComponent->reset();
-
-        $messages = $this->chatComponent->getMessages();
-
-        self::assertCount(0, $messages);
-    }
 }

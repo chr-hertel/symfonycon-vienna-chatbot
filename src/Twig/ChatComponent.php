@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App\Twig;
 
 use App\Chat;
+use PhpLlm\LlmChain\Model\Message\MessageBag;
 use Symfony\UX\LiveComponent\Attribute\AsLiveComponent;
 use Symfony\UX\LiveComponent\Attribute\LiveAction;
 use Symfony\UX\LiveComponent\Attribute\LiveArg;
@@ -20,14 +21,9 @@ final class ChatComponent
     ) {
     }
 
-    /**
-     * @phpstan-return MessageList
-     */
-    public function getMessages(): array
+    public function getMessages(): MessageBag
     {
-        return array_values(
-            array_filter($this->chat->loadMessages(), fn ($message) => 'system' !== $message['role'])
-        );
+        return $this->chat->loadMessages()->withoutSystemMessage();
     }
 
     #[LiveAction]

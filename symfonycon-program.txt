@@ -1,0 +1,777 @@
+SymfonyCon Vienna 2024
+======================
+
+We are thrilled to welcome you at SymfonyCon Vienna 2024! We will meet you at the Austria Center Vienna for the annual international Symfony conference.
+For the 10th edition of the SymfonyCon, join us at Vienna! A week of Symfony is waiting for you:
+
+December 03-04, 2024: 2 days of pre-conference workshops
+December 05-06, 2024: 2 days of conference with 3 parallels tracks
+
+We look forward to seeing you for the first time in Austria!
+
+Venue
+=====
+
+Vienna, "World's Greatest Places of 2023", is easy to reach, offers high-quality hotels, has an unparalleled safety record and is full of great value.
+Let's meet at the Austria Center Vienna, the only conference centre in the world that is located right next door to a United Nations headquarter.
+Accommodation
+Preferential rates are available in the participant guidelines PDF ➡️
+Staying in a hotel or accommodation near the U1 metro line is a must for easy and quick access.
+
+Workshops
+=========
+
+Workshop: Getting the Most Out of PHPStan
+Trainer: Ondřej Mirtes
+Description:
+PHP is nothing like compiled languages. If you make a mistake, the program will crash when the line of code with the mistake is executed. When testing a PHP application, whether manually or automatically, developers spend a lot of their time discovering mistakes that wouldn’t even compile in other languages, leaving less time for testing actual business logic.
+PHPStan is a popular static analyser focused on finding bugs in your code. By leveraging the strength of PHP type system further enhanced in PHPStan itself, developers can create robust applications and discover bugs early in the development process. The aid the tool provides during refactoring is also indispensable.
+In this workshop, the attendees will learn how to install, configure and run PHPStan, and also receive tips how to write code so that PHPStan can be as powerful as possible. They will also be able to write their own PHPStan rules and extensions.
+Details:
+1-day Workshop (7 hours)
+Delivered in English
+Wednesday, December 4, 2024
+Starts at 9:00AM
+
+---
+
+Workshop: DDD and Symfony in practice
+Trainer: Stefan Koopmanschap
+Description:
+Last year at SymfonyCon I told you about the theory behind using Domain-Driven Design to understand what problem you should be solving. If you were there or obtained basic knowledge of DDD elsewhere, but don't know where to start: During this workshop we'll work on a project where we will split domains and bounded contexts, introduce a basic hexagonal design, and implement some new functionality by using the features of Symfony that make it easy for us to accomplish our objectives.
+Details:
+1-day Workshop (7 hours)
+Delivered in English
+Wednesday, December 4, 2024
+Starts at 9:00AM
+
+---
+
+Workshop: Custom Chatbots with GPT & Symfony
+Christopher Hertel
+Description:
+Sold Out There are no seats available for this workshop.
+OpenAI's GPT has created a lot of excitement, and especially building custom chatbots is a common use case. In this workshop, we will tackle the basics of GPT, some common architectural pattern when using LLMs, and create our own custom chatbot using the Symfony framework.
+By the end of the workshop, you'll know how to combine GPT with Symfony to make your product or website more interactive. Join us for a fun and practical session where you can see the power of AI and Symfony in action.
+Details:
+1-day Workshop (7 hours)
+Delivered in English
+Tuesday, December 3, 2024
+Starts at 9:00AM
+
+---
+
+Workshop: Refactor your code - refactor yourself
+Trainer: Peter Dietrich
+Description:
+Last seats There are no seats available for this workshop on December 3, 2024.
+In this workshop we will be looking at tools, processes and a helpful mindset for refactoring projects.
+Interestingly, some of the principles can also be applied to yourself and can help you to understand your inner "programming" - and its limits in your daily live.
+Peter Dietrich, Software-Developer with 25 years of IT background and (future, in training) Gestalt-therapist will be taking you through a combined day of technical depths, debts, and the depths of your mind.
+If you are willing to dive into technical details and also dare to look at yourself and the legacy code in your brain, this will be right for you.
+Details:
+1-day Workshop (7 hours)
+Delivered in English
+Edition #1:
+Tuesday, December 3, 2024
+Starts at 9:00AM
+Edition #2:
+Wednesday, December 4, 2024
+Starts at 9:00AM
+
+---
+
+Workshop: Mastering OOP & Design Patterns
+Trainer: Alexandre Salomé
+Description:
+Last seats There are no seats available for this workshop on December 3, 2024.
+Object Oriented Programming (OOP) goes beyond the design of classes and interfaces. It includes a wide variety of concepts such as objects, entities, value objects, services, design models, SOLID principles, calisthenics, coupling, etc. Mastering OOP often requires several years of experience.
+This workshop will help you to better understand all these concepts in order to write more maintainable, robust and testable object-oriented code. You will also discover techniques to reduce the complexity of your code and make your classes more specific and therefore simpler. You will also learn how to recognize and exploit the power of design models (factory, adapter, composite, decorator, mediator, strategy, etc.).
+Details:
+1-day Workshop (7 hours)
+Delivered in English
+Edition #1:
+Tuesday, December 3, 2024
+Starts at 9:00AM
+Edition #2:
+Wednesday, December 4, 2024
+Starts at 9:00AM
+
+---
+
+Workshop: Get Started with Sulu: A Developer-Friendly CMS Powered by Symfony's Full-Stack Framework.
+Trainer: Thomas Schedler
+Description:
+Join me for an introductory workshop on Sulu CMS, a developer-friendly content management platform built on Symfony's Full-Stack Framework. Designed for developers seeking flexibility and scalability, this workshop will guide you through the fundamentals of Sulu and showcase its powerful integration with Symfony.
+You’ll learn how to manage multiple sites from a single installation, handle multi-language content seamlessly, and utilize structured content to create complex content models efficiently for building enterprise-level websites. Whether you're new to Sulu or looking to deepen your understanding, this workshop will equip you with the knowledge and skills to confidently work with this cutting-edge CMS.
+Details:
+1-day Workshop (7 hours)
+Delivered in English
+Tuesday, December 3, 2024
+Starts at 9:00AM
+
+---
+
+Workshop: A Practical Introduction to Symfony UX
+Trainer: Simon André
+Description:
+Symfony UX provides powerful tools to enhance user interactions within Symfony applications. This workshop offers a hands-on introduction to Symfony UX, guiding you through its core components and practical integration techniques.
+You will explore foundational concepts and learn how to incorporate interactive features like dynamic forms and real-time updates with ease. By focusing on practical, real-world applications, you'll gain the skills needed to effectively enhance user engagement in your own projects.
+By the end of this workshop, you'll have a clear understanding of Symfony UX and how to apply its components to modernize your application's user experience. This session is designed to deliver actionable insights and practical strategies that you can implement immediately.
+Details:
+1-day Workshop (7 hours)
+Delivered in English
+Tuesday, December 3, 2024
+Starts at 9:00AM
+
+---
+
+Workshop: Introduction to Sylius 2.0
+Trainer: Łukasz Chruściel
+Description:
+The recent release of Sylius 2.0 is the perfect opportunity to try one of the leading open-source e-commerce solutions or organize the knowledge you have acquired independently through documentation and hands-on coding.
+The training is divided into three sections, each lasting about two hours. Including lunch, coffee breaks, and Q&A sessions, the entire program spans 8 hours. Each module starts with theoretical foundations, followed by a presentation of Sylius's capabilities in a specific domain, and concludes with collaborative coding of selected functionalities, allowing you to apply your newfound knowledge in practice immediately.
+The program is designed so that every participant ends the day with solid skills in customizing Sylius to meet individual business needs. From creating new entities and assigning product features to setting up sales processes (e.g., shipping in special packaging) and processing orders (e.g., state machine modifications), we teach what is most important in e-commerce.
+Additionally, we will explore the newest features available in Sylius 2.0, ensuring you are up-to-date with the latest advancements and improvements in this powerful platform.
+Join us to enhance your Sylius expertise and take your e-commerce solutions to the next level!
+Details:
+1-day Workshop (7 hours)
+Delivered in English
+Wednesday, December 4, 2024
+Starts at 9:00AM
+
+---
+
+Workshop: Test Driven Development The Right Way
+Trainer: Diego Aguiar
+Description:
+Have you ever wanted to learn about TDD but never got a chance to learn it properly?
+Do you think TDD only slows you down?
+You don't know what to do when getting stuck?
+Attend this workshop and learn what TDD really is by practice and add this methodology to your developer toolkit
+In this workshop, you'll learn about:
+- How to develop a complex feature from scratch by applying TDD using PHPUnit
+- The anatomy of a clean test: Arrange, Act, & Assert.
+- Going faster. Demystify the myth that TDD only slows you down.
+- And many other useful tricks...
+Details:
+1-day Workshop (7 hours)
+Delivered in English
+Wednesday, December 4, 2024
+Starts at 9:00AM
+
+---
+
+Workshop: Symfony 7: the fast track
+Trainer: Nicolas Grekas
+Description:
+This training is from the book "Symfony 7: The Fast Track" by Fabien Potencier. In 2 days, it will teach you how to build a Symfony application from A to Z using new practices and new components. For those who are new to Symfony, this training is an opportunity to discover capabilities of Symfony. For more experienced devs, it's an opportunity to know about and to discover the latest features and best practices.
+We will build an application with all the infrastructure of modern apps: database, application and HTTP cache server, message bus for background processing, etc. We will start from the basics with the installation of a skeleton application, the creation of a data model and a "backoffice", then we will add screens for users, a security system to partition rights. We will enrich the business rules to send notifications, send emails, manage a publication workflow, etc. Finally, we will optimize the application for production through HTTP and application caches, through asset management (JS/CSS/images) and secrets management. To secure each step, we will write tests to guarantee non-regressions.
+On the menu: Flex, DependencyInjection, Mailer, Workflow, Messenger, HttpClient, String, etc.
+Details:
+2-day Workshop (7 hours)
+Delivered in English
+December 3 – 4, 2024
+Starts at 9:00AM
+
+Talks
+=====
+
+Talk: Keynote
+Speaker: Fabien Potencier
+Description:
+Keynote
+Details:
+Delivered in English
+Rooms: Track Symfony, Track SensioLabs, Track Upsun & Smile
+Thursday, December 5, 2024 at 09:15 AM – 09:55 AM
+
+---
+
+Talk: HTTP compression in Symfony apps
+Speaker: Kévin Dunglas
+Description:
+Compressing HTTP responses can significantly improve the performance of your Symfony applications. But you still need to find your way through the jungle of standards and formats.
+In this presentation, we'll discover how HTTP compression works, the different formats supported by modern web browsers (deflate, gzip, Brotli, and the brand new Zstandard), and how to use them correctly with Symfony.
+We'll also look at which formats to compress, which not to, when to use dynamic compression, and when (and how) to pre-compress responses that can be compressed for even better performance.
+Details:
+Delivered in English
+Room: Track Symfony
+Thursday, December 5, 2024 at 10:05 AM – 10:40 AM
+Introductory talk, no prior knowledge needed.
+
+---
+
+Talk: Crafting Hybrid PHP-Go CLIs with Symfony Console
+Speaker: Antonis Kalipetis
+Description:
+Discover how to bridge the gap between legacy PHP code and the performance of Go in hybrid CLI development. Using the Symfony Console library, you'll see how we blend these two languages in the Upsun CLI, embedding the Legacy Platform.sh PHP CLI within Go for seamless functionality.
+This approach not only enhances performance but also preserves backward compatibility, saving time while migrating from the older PHP-based CLI to the new, faster Go implementation. You'll learn how we maintain intuitive command routing, make it invisible to users, and tackle authentication across both platforms.
+This talk is perfect for those looking to modernize their tools without starting from scratch.
+Details:
+Delivered in English
+Room: Track Upsun & Smile
+Thursday, December 5, 2024 at 10:05 AM – 10:40 AM
+Intermediate talk, some familiarity with the topic required.
+
+---
+
+Talk: From Translations to Multi Dimension Entities
+Speaker: Alexander Schranz
+Description:
+Content management is more than just adding a text editor to your project. Initially, you may only need a basic text editor for your Entity. However, as your project grows, you might require support for multiple languages, and when drafting or versioning come into play, things can get tricky.
+In this talk, I will provide a quick introduction to different ways of data modeling and the libraries available to meet these needs. I'll also share a brief history of Sulu's content storage and explain why we decided to redesign the entire content storage system for a better future.
+You'll learn how to evolve from a simple Doctrine entity to a translatable entity, and finally, to a multi-dimensional entity that supports multiple languages, drafting, versioning, and more. These concepts are reusable even if you're not using our beloved CMS.
+Details:
+Delivered in English
+Room: Track SensioLabs
+Thursday, December 5, 2024 at 10:05 AM – 10:40 AM
+Introductory talk, no prior knowledge needed.
+
+---
+
+Talk: Symfony UX: 2024 Highlights & What’s Next
+Speaker: Simon André
+Description:
+Symfony UX is a set of components for creating rich front-end interfaces with Symfony. This December, it celebrates its 4th anniversary. (Happy UX-Birthday!)
+What a year 2024 has been for Symfony UX!
+We’ll review all that happened: new components (Icon, Map), added features to TwigComponent and LiveComponent, and discuss the philosophy and directions taken by the Symfony UX team.
+Then we’ll explore the future of Symfony UX with a sneak peek at 2025, including one or two surprises!
+Details:
+Delivered in English
+Room: Track SensioLabs
+Thursday, December 5, 2024 at 11:10 AM – 11:45 AM
+Introductory talk, no prior knowledge needed.
+
+---
+
+Talk: Machine Learning Inference in PHP by example: leverage ONNX and Transformers on Symfony
+Speaker: Guillaume MOIGNEU
+Description:
+Whether you're an AI enthusiast or a developer curious about machine learning, this session will equip you with the knowledge to implement ML inference in your Symfony applications.
+This talk will show by example how to implement ONNX (Open Neural Network Exchange) and Transformer models to bring advanced AI capabilities to your Symfony projects.
+Details:
+Delivered in English
+Room: Track Upsun & Smile
+Thursday, December 5, 2024 at 11:10 AM – 11:45 AM
+
+Introductory talk, no prior knowledge needed.
+
+---
+
+Talk: Let's take control of our forms with Symfony!
+Speaker: Allison Guilhem
+Description:
+Effectively managing forms can be a daunting task, given their diverse and complex requirements. This talk aims to simplify this challenge through a practical case study.
+We will delve into strategies for handling dynamic forms, efficiently organising data, and structuring code in a modular and reactive manner. Special emphasis will be placed on managing collections, utilising data mappers, and implementing data transformers. By dissecting these critical aspects of form management, this talk aims to demystify the complexities associated with Symfony forms.
+So, let's explore Symfony form handling and discover solutions to streamline your daily workflow effectively, gaining practical insights and tips for creating and maintaining clean, extensible forms tailored to meet the specific demands of modern web applications.
+Details:
+Delivered in English
+Room: Track Symfony
+Thursday, December 5, 2024 at 11:10 AM – 11:45 AM
+Intermediate talk, some familiarity with the topic required.
+
+---
+
+Talk: Flexibility in the Face of Uncertainty
+Speaker: Wachter Johannes
+Description:
+In this forward-thinking talk, I'll take you on a journey through the integration of AI in Symfony projects. Drawing from our real-world experiences, I'll demonstrate how to build adaptable AI systems that can withstand the ever-shifting landscape of AI technologies and regulations. You'll learn our strategies for creating a provider-agnostic AI architecture, ensuring your Symfony applications remain flexible amidst changing requirements and GDPR considerations. Join me to discover how to future-proof your projects and avoid vendor lock-in while harnessing the power of AI in your Symfony ecosystem.
+Details:
+Delivered in English
+Room: Track SensioLabs
+Thursday, December 5, 2024 at 11:55 AM – 12:30 PM
+Introductory talk, no prior knowledge needed.
+
+---
+
+Talk: Building a Fraud Prevention component using Symfony
+Speaker: Moritz Schuh
+Description:
+Online fraud and abuse poses a serious risk to all digital businesses and having preventive measure in place has become indispensable.
+In this talk we will be looking at how to build a Symfony application tasked with detecting and preventing malicious activities such as credit card fraud, automated registrations and abuse of free resources.
+Our application will collect data from different sources and provide a RESTFul API to other services to guide access to resources, trigger verification requests and block suspicious activities.
+Details:
+Delivered in English
+Room: Track Upsun & Smile
+Thursday, December 5, 2024 at 11:55 AM – 12:30 PM
+Introductory talk, no prior knowledge needed.
+
+---
+
+Talk: A brand-new way to serialize data in Symfony
+Speaker: Mathias Arlaud
+Description:
+Serialization plays an essential role in any information system, and particularly in the context of a web application, as it is one of the pivots of the HTTP request/response cycle. That's why Symfony's Serializer component is one of the most critical for our applications.
+Needs evolve, and since its creation, this old component has found itself confronted with new problems and has in some ways reached its own limits.
+That's why it's now necessary to completely rethink the way we serialize data in the Symfony ecosystem.
+So let's take a look at two Symfony component drafts: the JsonEncoder and the ObjectMapper, and how they interact to provide a brand-new way of serializing data.
+Details:
+Delivered in English
+Room: Track Symfony
+Thursday, December 5, 2024 at 11:55 AM – 12:30 PM
+Intermediate talk, some familiarity with the topic required.
+
+---
+
+Talk: Greener code with Symfony
+Speaker: Michelle Sanver
+Description:
+As software engineers it is sometimes too easy to forget the impact that our code has on the environment. We build for changeability, speed and hopefully quality, but we forget about sustainability. The time to act is now. It is time for us to take responsibility and to write more sustainable tech. In this talk I will talk about things we can do to write more energy efficient code. I will also talk about hosting your code more sustainably. And last but not least… I will share the software architecture needed to build greener applications using Symfony Messenger.
+Details:
+Delivered in English
+Room: Track SensioLabs
+Thursday, December 5, 2024 at 14:30 PM – 15:05 PM
+Introductory talk, no prior knowledge needed.
+
+---
+
+Talk: Flawless collaboration between front and back developers
+Speaker: Augustin Delaporte
+Speaker: Florent HUCK
+Description:
+This talk will demonstrate a streamlined workflow for two developers collaborating on a project through a live coding session. We will build a frontend using Next.js and an API backend using Symfony. We aim to create a visually appealing and functional decoupled application in only 30 minutes.
+During the presentation, we will discuss the tools and techniques we use to facilitate efficient teamwork, including real-time code review, infrastructure as code, version control, and preview environments. Attendees will leave with a solid understanding of streamlining their development workflows and improving collaboration with their colleagues.
+Details:
+Delivered in English
+Room: Track Upsun & Smile
+Thursday, December 5, 2024 at 14:30 PM – 15:05 PM
+Introductory talk, no prior knowledge needed.
+
+---
+
+Talk: Refactor your code - refactor yourself
+Speaker: Peter Dietrich
+Description:
+Looking at old legacy code, you usually know "a better way to do it" by now. But did you ever look at "the code in your mind"?
+Let's go through a helpful mindset for refactoring projects and apply some principles of refactoring to yourself.
+This talk will give you a better understanding of how you and your brain evolved from index.php to a complete fully grown application - and what parts of your brain still run legacy code.
+Details:
+Delivered in English
+Room: Track Symfony
+Thursday, December 5, 2024 at 14:30 PM – 15:05 PM
+Introductory talk, no prior knowledge needed.
+
+---
+
+Talk: Cutting-Edge Symfony Pipelines with Dagger
+Speaker: Paul Dragoonis
+Description:
+I truly believe Dagger is the next evolution of CI/CD implementation. Myself, as a subject matter expert in CI/CD, I spent years building the perfect system to mitigate challenges we face at a tech level and business level. Now along comes Dagger, created by Solomon, the founder of Docker, and it makes so many challenges disappear, by design, and opens up so many new possibilities along the way.
+In this talk I'll be your guide in a deep dive into Dagger-land, demonstrating how to strategically start integrating this into your existing projects and start benefiting from the awesomeness.
+Details:
+Delivered in English
+Room: Track SensioLabs
+Thursday, December 5, 2024 at 15:15 PM – 14:50 PM
+Intermediate talk, some familiarity with the topic required.
+
+---
+
+Talk: Who did that? Auditing data changes at scale
+Speaker: Sebastian Plagemann
+Description:
+As your application evolves from a side project into a serious business, you will likely encounter situations where you, your support team, or even your customers question why certain configurations changed, why information is incorrect, or why data seemingly vanished "on its own." Understanding and effectively managing these issues is crucial to maintaining the integrity and reliability of your application.
+This talk will explore various strategies for auditing data changes in Symfony applications. We will discuss where to begin and what factors to consider as the volume of data increases.
+Details:
+Delivered in English
+Room: Track Symfony
+Thursday, December 5, 2024 at 15:15 PM – 15:50 PM
+Intermediate talk, some familiarity with the topic required.
+
+---
+
+Talk: An Unholy Bond: Harmonizing Dev and Marketing
+Speaker: Celeste VAN DER WATT
+Description:
+Connecting the broken dots between the dev team and the marketing team to create an unholy synergy. Giving a simple guide to help marketing and development teams work better and more effectively as a team to create better products, messaging, and user experiences. Highlight collaboration practices, tools and real-world experiences to ensure both teams are aligned and achieve success.
+Details:
+Delivered in English
+Room: Track Upsun & Smile
+Thursday, December 5, 2024 at 15:15 PM – 15:50 PM
+Introductory talk, no prior knowledge needed.
+
+---
+
+Talk: Demystifying Dependency Injection in Symfony
+Speaker: Dave Liddament
+Description:
+The Dependency Injection Component is a key part of all Symfony applications. It helps developers write decoupled and maintainable code.
+In this beginner-level talk, we will explore the following:
+- The principles of Dependency Injection
+- Setting up and configuring the Symfony service container
+- Using Attributes for service configuration
+By the end of this session, you'll have a solid understanding of how to implement DI effectively, ensuring your Symfony applications are scalable, maintainable, and easy to test.
+Details:
+Delivered in English
+Room: Track SensioLabs
+Thursday, December 5, 2024 at 16:20 PM – 16:55 PM
+Introductory talk, no prior knowledge needed.
+
+---
+
+Talk: Symfony Mapper component
+Speaker: Antoine Bluchet
+Description:
+Mapping is something that you see in many frameworks over the web in every programming languages. Doctrine, for example, has a quite complex mapper to transform the relational database representation to your well-known entity.
+After covering the history behind years of discussion and research by the Symfony community, we'll study the needs for such a component in Symfony. We'll analyse how different it is from the Symfony Serializer, and what are the solutions popular frameworks on the Web offer. At least, we'll showcase the new Mapper component and its application from API design to day to day use cases.
+Details:
+Delivered in English
+Room: Track Symfony
+Thursday, December 5, 2024 at 16:20 PM – 16:55 PM
+Intermediate talk, some familiarity with the topic required.
+
+---
+
+Talk: Break Things Fast: Accelerated QA and Testing with Upsun
+Speaker: Greg Qualls
+Description:
+In the fast-paced world of development, the ability to test and iterate quickly is paramount. This talk explores how Upsun empowers developers to "break things fast" by providing full-stack preview environments that can be spun up on demand, mirroring production settings without the risks associated with traditional cloning methods. Learn how to leverage these transient environments for rapid QA, experimentation, profiling, load testing, and debugging.
+Upsun is a cloud application platform that empowers developers to build, deploy, and manage applications with greater flexibility and efficiency. It offers advanced resource and container management, allowing teams to dynamically allocate computing resources and customize container configurations to meet the specific needs of their applications.
+Details:
+Delivered in English
+Room: Track Upsun & Smile
+Thursday, December 5, 2024 at 16:20 PM – 16:55 PM
+Introductory talk, no prior knowledge needed.
+
+---
+
+Talk: Can Postgres cover your NoSQL needs?
+Speaker: David Buchmann
+Description:
+Postgres is famous for its support for SQL data. However, Postgres also has powerful capabilities to work with JSON. I will show how to leverage the various JSON functions of modern Postgres to work with your less structured data. I will also show how to use some of that functionality from within Doctrine.
+Details:
+Delivered in English
+Room: Track SensioLabs
+Thursday, December 5, 2024 at 17:05 PM – 17:40 PM
+Introductory talk, no prior knowledge needed.
+
+---
+
+Talk: Symfony Extensibility: Shopware's Lessons
+Speaker: Sebastian Seggewiß
+Description:
+This talk shows you highly extendable systems inspired by real-world experience at Shopware using Symfony.
+While starting a project with Symfony is bliss, making it extendable and future-proof from an architectural standpoint becomes challenging.
+In this talk, you will learn about the basics of plugin systems for third-party code and more advanced strategies, such as event-driven architecture. It will give you a starting point for making your own project future-proof and extendable.
+Details:
+Delivered in English
+Room: Track Upsun & Smile
+Thursday, December 5, 2024 at 17:05 PM – 17:40 PM
+Intermediate talk, some familiarity with the topic required.
+
+---
+
+Talk: Composer Behind the Scenes
+Speaker: Nils Adermann
+Description:
+Ever wondered what happens under the hood when you run a Composer update or why Composer 2 got so much faster? Learn about some of its inner workings, some lesser known parts and why they may be useful to you, as well as upcoming features and future plans.
+Details:
+Delivered in English
+Room: Track Symfony
+Thursday, December 5, 2024 at 17:05 PM – 17:40 PM
+Advanced talk, in-depth exploration of the topic.
+
+---
+
+Talk: Carry out the best audit for your client
+Speaker: Marie Minasyan
+Description:
+When you're faced with auditing an application or a set of applications, it's easy to get lost and forget the big picture. Let's discuss which tools are best suitable for every part of the audit, which aspects of the stack should be audited and how to proceed. Join me in finding out which traps to avoid and how to best carry out your next audit.
+Details:
+Delivered in English
+Room: Track SensioLabs
+Thursday, December 5, 2024 at 17:50 PM – 18:25 PM
+Intermediate talk, some familiarity with the topic required.
+
+---
+
+42 best practices for Symfony, a decade later
+Speaker: Tugdual Saunier
+Description:
+We are in March 2013. Symfony 2.2 has just been released, PHP 5.5 is around the corner and I give my first public talk during a SymfonyLive: “42 best practices for Symfony” (in French).
+10+ years later a lot of things changed for Symfony, for PHP but also regarding development in general.
+Let’s take a moment to look back at those best practices and see which one are still relevant, obsolete or now completely wrong. This would be a nice opportunity to reflect on the evolutions our ecosystem experienced over the last decade.
+Details:
+Delivered in English
+Room: Track Symfony
+Thursday, December 5, 2024 at 17:50 PM – 18:25 PM
+Intermediate talk, some familiarity with the topic required.
+
+---
+
+Talk: Platforms & Frameworks Eat Culture for Breakfast
+Speaker: Nigel
+Description:
+As tech leaders we like to think we’re responsible for driving organisational and cultural change, but in most cases, we’re just catching up to the possibilities created by new kinds of software, and re-forming our engineering organisations to take advantage of them.
+Organisational dynamics are critical, but success at enabling fast flow is ultimately dependent upon how well your tech stack enables it. It’s technology that drives progress.
+In this talk Nigel will take a tour through some history of the DevOps movement, findings from a decade of State of DevOps Reports, his experience driving change at large and small companies, discuss some relevant inflection points in software and how they influence organisational dynamics, argue that the dominance of “culture” topics divorced from technological progress fails to advance our industry, and demonstrate how platform and framework adoption drives the best kind of cultural changes.
+Details:
+Delivered in English
+Rooms:
+Track Symfony, Track SensioLabs, Track Upsun & Smile
+Friday, December 6, 2024 at 09:00 AM – 09:40 AM
+Introductory talk, no prior knowledge needed.
+
+---
+
+Talk: Bulletproofing for Black Friday
+Speaker: Thomas di Luccio
+Description:
+The holiday season, especially Black Friday, is a goldmine for e-commerce apps—but only if they can handle the traffic. When the surge hits, unprepared applications buckle under pressure, leading to frustrated users and crashed servers. Been there, done that...
+In this talk, I’ll share some e-commerce horror stories from the trenches and show you how to avoid becoming one. We’ll dive into a proven roadmap to reliability using production cloning, traffic generation, and real-time observability.
+With these strategies (plus a dash of your magic), you’ll have the perfect recipe to ensure your app withstands the holiday rush—and you can relax, knowing your system won’t let you down
+Details:
+Delivered in English
+Room: Track Upsun & Smile
+Friday, December 6, 2024 at 10:05 AM – 10:40 AM
+Introductory talk, no prior knowledge needed.
+
+---
+
+Talk: Strict PHP
+Speaker: Alexander M. Turek
+Description:
+Its loose type system and implicit type casts make PHP a perfect programming language for beginners. However, if we rely on those features heavily, we will eventually end up with a codebase that is hard to control and maintain. In this session, Alexander will open up his toolbox and show how a stricter way of programming PHP applications helps him to not lose pace when applying changes to PHP applications.
+Details:
+Delivered in English
+Room: Track Symfony
+Friday, December 6, 2024 at 10:05 AM – 10:40 AM
+Introductory talk, no prior knowledge needed.
+
+---
+
+Talk: The missing Gotenberg Bundle. Components, Assemble!
+Speaker: Hubert Lenoir
+Speaker: Adrien Roches
+Description:
+Since wkhtmltopdf was deprecated, it is difficult to find an easy to use / setup library to generate PDF's.
+Amongst the existing solutions, we chose to focus solely on Gotenberg.
+The existing SDK did not match our needs as it provides only static classes, so we decided to give a try and create ourselves a brand new Bundle with the DX possible for Symfony Developpers & PHPStorm users.
+From the fast HttpClient to the forgotten Webhook, let's see how existing components can help us to make PDF generation fast and easy to use.
+To do so we had to ask ourselves a few questions which we will cover together !
+How do we expose a friendly, yet semantic configuration ?
+How to ensure great auto-completion for ease of use ?
+What needs to be done to have a proper Profiler ?
+How to keep memory efficiency by leveraging the HttpClient ?
+How to make the asynchrone generation easy ?
+Come and discover how generating PDF's is now as easy as using twig !
+Details:
+Delivered in English
+Room: Track SensioLabs
+Friday, December 6, 2024 at 10:05 AM – 10:40 AM
+Intermediate talk, some familiarity with the topic required.
+
+---
+
+Talk: GraphQL, REST or RPC? Making the choice!
+Speaker: Rob Allen
+Description:
+When you've been tasked with creating an HTTP API, the fundamental decision you need to make is which architecture to choose. Should your API be RESTful? What about GraphQL? or RPC? In this session, I'll explain the choices and how each works. We'll then look at their strengths and weaknesses in order to help guide your decision. By the end of this talk, you'll be well-placed to choose the right API architecture for your project.
+Details:
+Delivered in English
+Room: Track SensioLabs
+Friday, December 6, 2024 at 11:10 AM – 11:45 AM
+Introductory talk, no prior knowledge needed.
+
+---
+
+Talk: Crafting a Microservice That Fits Your Needs
+Speaker: Haylee Millar
+Description:
+Microservices offer substantial benefits in terms of scalability and flexibility. However, these advantages come with challenges, including increased complexity and the potential for service fragmentation. In this talk, we’ll delve into a real-life case study demonstrating how adopting a microservice was the ideal solution for expanding functionality within an existing system. Through this example, we will explore the decision-making process, the implementation strategy, and the ultimate impact on system performance and flexibility.
+Details:
+Delivered in English
+Room: Track Upsun & Smile
+Friday, December 6, 2024 at 11:10 AM – 11:45 AM
+Introductory talk, no prior knowledge needed.
+
+---
+
+Talk: How to migrate from Cron to Symfony Scheduler
+Speaker: Viktor Pikaev
+Description:
+In our project, we had a couple of hundred scheduled jobs. Recently, we've successfully migrated the project from Cron to Symfony Scheduler. It was a long way and I would like to share our experience:
+- How to do it smoothly?
+- What advantages and disadvantages can we get from migration from Cron to Scheduler?
+- What problems face we face during the migration?
+Details:
+Delivered in English
+Room: Track Symfony
+Friday, December 6, 2024 at 11:10 AM – 11:45 AM
+Intermediate talk, some familiarity with the topic required.
+
+---
+
+Talk: Crafting Custom PHPStan Rules for Symfony Apps
+Speaker: Ondřej Mirtes
+Description:
+Static analysis tools like PHPStan have become essential for PHP developers, and Symfony projects can greatly benefit from custom rules tailored to their specific needs. In this talk, I will guide Symfony developers through the process of writing custom PHPStan rules to enforce project-specific standards and catch domain-specific bugs, and freeing up valuable time by automating repetitive code review tasks.
+Details:
+Delivered in English
+Room: Track Symfony
+Friday, December 6, 2024 at 11:55 AM – 12:30 PM
+Intermediate talk, some familiarity with the topic required.
+
+---
+
+Talk: The Role of Empathy in Technical Writing
+Speaker: Kemi Elizabeth Ojogbede
+Description:
+It’s easy to assume that our users are experts when writing documentation. But technical writing without diagrams, code examples, videos, screenshots and more can ostracise a large chunk of users who are simply searching for help when using your product. When writing technical documentation, empathy allows us to imagine ourselves as the reader: a junior developer who just started on the job, a sales manager who needs more information for a client deck, a member of the customer success team helping a client on a video call. When we’re able to understand that our docs form the foundation of knowledge for a wide range of users, we’re able to write in a manner that positively impacts all. We may be writing about logical concepts, but our approach can definitely benefit from a bit of heart. This talk will break down the vital role empathy plays in the process of writing technical documentation for users from all business backgrounds.
+Details:
+Delivered in English
+Room: Track Upsun & Smile
+Friday, December 6, 2024 at 11:55 AM – 12:30 PM
+Introductory talk, no prior knowledge needed.
+
+---
+
+Talk: Symfony Notifier : Return of the Mailman
+Speaker: Raphaël Geffroy
+Description:
+Let's delve into the intricacies of Symfony Notifier component: you'll learn all about its inner workings, from channels to transports and configuration.
+We'll take advantage of this journey to develop a new feature of the component: sending postal mails.
+Details:
+Delivered in English
+Room: Track SensioLabs
+Friday, December 6, 2024 at 11:55 AM – 12:30 PM
+Introductory talk, no prior knowledge needed.
+
+---
+
+Talk: Green IT, Accessibility, GDPR: 360 Vision of Sustainability
+Speaker: Vincent Maucorps & Céline DEIS
+Description:
+Join us for an insightful session on more sustainable and ethical tech practices. This conference will cover the essentials of Green IT, showing you how to minimize environmental impact through optimized development processes. You’ll also learn about the importance of accessibility, ensuring that your web applications are inclusive and meet accessibility standards. Additionally, the session will delve into data privacy, providing practical advice on managing data protection in your projects. Gain valuable knowledge and tools to integrate sustainability into your Symfony applications and contribute to a more responsible tech ecosystem.
+Details:
+Delivered in English
+Room: Track Upsun & Smile
+Friday, December 6, 2024 at 14:30 PM – 15:05 PM
+Introductory talk, no prior knowledge needed.
+
+---
+
+Talk: Resurrecting the Dead
+Speaker: Juliette Reinders Folmer
+Description:
+Have you ever considered what would happen when a popular open source package is abandoned?
+Now, what about when that package is one of your essential dependencies?
+
+This scenario is not some abstract scenario for a far away future. Projects get abandoned every day and your dependency might be next... But you can help!
+Come & listen to some tales of an accidental maintainer and learn about what you can do to help try and prevent these situations from getting out of hand.
+Details:
+Delivered in English
+Room: Track SensioLabs
+Friday, December 6, 2024 at 14:30 PM – 15:05 PM
+Introductory talk, no prior knowledge needed.
+
+---
+
+Talk: Component Thinking with Symfony
+Speaker: Matheo Daninos
+Description:
+Communication is key but challenging for developers, especially when working with people using different programming languages. Front-end developers extensively use Component Architecture, as it is implemented in all major JavaScript frameworks. Let’s explore what Component Architecture is and how to implement it in a real Symfony application. This approach will enable your team to work efficiently on the same codebase, fostering better communication and collaboration by speaking the same technical language.
+Details:
+Delivered in English
+Room: Track Symfony
+Friday, December 6, 2024 at 14:30 PM – 15:05 PM
+Introductory talk, no prior knowledge needed.
+
+---
+
+Talk: From Pickles to Pie: Sweeten Your PHP Extension Installs
+Speaker: Andreas Braun
+Description:
+What started out as a sweet PEAR is now a sour PECL, and after many years of dealing with brined cucumbers it’s time to dish out some sweet new tools. Join us for a trip down memory lane as we take a look at the acquired taste of PHP extensions and their challenges from writing and publishing them to finally handling the installation procedure you are all too familiar with. The talk will give you an insight into an effort by the PHP foundation to bake a new PHP Installer for Extensions and how it will solve some of the challenges of dealing with PHP extensions.
+Details:
+Delivered in English
+Room: Track SensioLabs
+Friday, December 6, 2024 at 15:15 PM – 15:50 PM
+Introductory talk, no prior knowledge needed.
+
+---
+
+Talk: Running Symfony in a Multi-Process Container
+Speaker: Anne-Julia Seitz
+Description:
+The deployment scenario for PHP looks a little different than for other languages like Go or Ruby that have embedded webservers. The classic stack of NGINX/Apache + php-fpm doesn't perfectly fit in the container world.
+Some solution providers, like DigitalOcean or certain Azure products, only allow for single containers to be deployed.
+In this talk, we'll explore ways other people have solved this, like FrankenPHP, Framework-X , and others. For production deployments, there is k8s, swarm, compose, and running everything in one multiprocess container.
+These single containers could be orchestrated with systemd, supervisord, or Runit. We'll talk about the benefits and downsides of these solutions, compare them with the choice we made for our last project, s6-overlay, show off the s6-cli project I developed for this purpose and talk about recipes for running database migrations, cronjobs and a few more.
+Details:
+Delivered in English
+Room: Track Symfony
+Friday, December 6, 2024 at 15:15 PM – 15:50 PM
+Introductory talk, no prior knowledge needed.
+
+---
+
+Talk: Revolutionize Searchandising with Gally!
+Speaker: Romain Ruaud
+Description:
+Creating an unforgettable user experience in searchandising is a challenge for both developers and business professionals.
+Enter Gally, our open-source searchandising solution, designed to meet the ecosystem's technical and functional needs with excellence.
+Join us for an engaging talk where we unveil our journey in crafting Gally.
+Discover how Gally harnesses the power of Symfony and API Platform to offer seamless extensibility for developers while boosting ease of use and revenue for businesses.
+Details:
+Delivered in English
+Room: Track Upsun & Smile
+Friday, December 6, 2024 at 15:15 PM – 15:50 PM
+Introductory talk, no prior knowledge needed.
+
+---
+
+Talk: Code Less, Create More: Unleashing AI Secret Weapons for Lazy(?) Developers!
+Speaker: Thibault Milan
+Description:
+Join Thibault Milan as he explores the transformative power of AI in web development. Discover how tools like GitHub Copilot, Tabnine, Perplexity, and Azure OpenAI are revolutionizing his workflow, enabling faster ideation and seamless entry into new tech areas. Thibault will share insights on integrating AI to improve coding practices, overcome technical limitations, and venture into uncharted territory.
+This talk will inspire every developer to view AI as a complement to their skills, not a competitor, preparing them for a future where AI tools are indispensable partners in innovation.
+Details:
+Delivered in English
+Room: Track Upsun & Smile
+Friday, December 6, 2024 at 16:20 PM – 16:55 PM
+Introductory talk, no prior knowledge needed.
+
+---
+
+Talk: Symfony Authentication: What's next?
+Speaker: Robin Chalas
+Description:
+The Security component has changed a lot in the past few years.
+From Authentication Listeners to Guard and finally the Authenticator Manager system, Symfony now has the most robust infrastructure ever to support most if not all modern, industry-standard Security protocols.
+The community started building on these new foundations by introducing an AccessTokenAuthenticator and kept improving it since then, notably through adding more token handlers for well-known authentication protocols.
+That's pretty cool already, but what should we expect next? How far will we take it?
+In this talk, I'm going to put my Security maintainer hat on to answer these questions and share some insights about what's going on in this critical part of our beloved framework.
+Details:
+Delivered in English
+Room: Track Symfony
+Friday, December 6, 2024 at 16:20 PM – 16:55 PM
+Intermediate talk, some familiarity with the topic required.
+
+---
+
+Talk: Keynote
+Speaker: Nicolas Grekas
+Description:
+Keynote
+Details:
+Delivered in English
+Rooms:
+Track Symfony, Track SensioLabs, Track Upsun & Smile
+Friday, December 6, 2024 at 17:05 PM – 17:40 PM
+
+Hackday
+=======
+
+Save the date for the next Symfony hackathon right after the conference on Saturday, December 7th
+
+New and experienced contributors are all wanted! We will:
+* Onboard and Mentor New Contributors
+* Collaborate on Future Roadmap
+* Enhance Testing and Security
+* Develop Community Resources
+* Strengthen Diversity and Outreach
+
+Bring your laptop and let's explore new ideas together!
+The hackathon will be hosted in Vienna from 09.30 a.m. to 3.00 p.m. CET
+Address: Stockwerk, Pater-Schwartz-Gasse 11A, 1150 Wien

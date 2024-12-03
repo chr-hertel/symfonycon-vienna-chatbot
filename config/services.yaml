@@ -24,6 +24,8 @@ services:
             - '../src/Entity/'
             - '../src/Kernel.php'
 
+    PhpLlm\LlmChain\Chain\ToolBox\Tool\OpenMeteo: ~
+
 when@test:
     services:
         Symfony\Component\HttpClient\MockHttpClient:

@@ -4,8 +4,10 @@ declare(strict_types=1);
 
 namespace App\OpenAI;
 
+use Symfony\Component\DependencyInjection\Attribute\AsAlias;
 use Symfony\Contracts\HttpClient\HttpClientInterface;
 
+#[AsAlias(GptClientInterface::class)]
 final class GptClient implements GptClientInterface
 {
     public function __construct(
@@ -25,7 +27,7 @@ final class GptClient implements GptClientInterface
         $response = $this->httpClient->request('POST', 'https://api.openai.com/v1/chat/completions', [
             'headers' => ['Content-Type' => 'application/json'],
             'auth_bearer' => $this->openAiApiKey,
-            'json' => $body,
+            'body' => json_encode($body),
         ]);
 
         $data = $response->toArray();
